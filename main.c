@@ -353,7 +353,7 @@ int main(int argc, char* argv[])
 
 
             fclose(foutCSV);
-            printf("\nTermino porque encontro datos viejos en la memoria");
+            printf("\nTermino porque encontro datos con fecha anterior en la memoria");
             return  0; // Encontró datos viejos en la memoria
         }
 
